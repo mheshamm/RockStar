@@ -1,0 +1,472 @@
+@media only screen and (max-width:481px){
+    html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-image: url(photos/01.jpg);
+    background-repeat:no-repeat;
+    
+    
+    
+    padding: 0;
+    
+    
+    
+}
+#menu{
+    position:fixed;
+    
+    top: 0;
+    left: 0;
+    display: flex;
+    
+    margin:0;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+    opacity: .8;
+    
+    
+}
+.logo{
+    margin-left:15px;
+    
+}
+
+nav ul {
+    
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top: 8px;
+    right:15px;
+    
+    
+}
+nav li {
+    
+    height: 100%;
+    margin:10px;
+    
+   }
+nav a {
+    font-family: cursive;
+    font-size: .8em;
+    text-decoration: none;
+    color:white;
+    width: 100%;
+    
+    }
+.activ a{
+    color:red;
+}
+a:hover{
+    color:red;
+}
+header{
+    text-align: center;
+    margin-top: 60px;
+}
+header img{
+    max-width:40%;
+    margin-top: 20px;
+}
+header h2 {
+    font-family: cursive;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size:1.6em;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+header button {
+    margin-top: 10px;
+    width: 200px;
+    height: 60px;
+    background-color:rgba(208, 37, 44, 0.5);
+    font-family: cursive;
+    font-size: 1.2em;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+.game , .contain{
+    margin-top: 50px;
+    justify-content: center;
+    
+    display: flex;
+    
+    width: 100%;
+}
+    
+    
+.game div {
+    
+    text-align: center;
+    width:27%;
+    color:white;
+    -webkit-text-stroke-width: .9px;
+   -webkit-text-stroke-color: black;
+    font-family:monospace;
+    font-size: 1em;
+    }
+.game img{
+    width:90%;
+    height:70px;
+    box-shadow:4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.news{
+    margin-top: 20px;
+    background-color: #222222;
+    padding-top: 20px;
+    text-align: center;
+    font-family:monospace;
+    font-size: 2em;
+    color: white;
+    padding-bottom: 100px;
+    
+    
+    
+    
+    
+    
+}
+
+    .contain{
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+.photo{
+    position: relative;
+    text-align: center;
+    width:70%;
+    color: white;
+    font-family:monospace;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 15px 0 ;
+    height: 200px;
+    
+}
+.photo img {
+    
+    width:90%;
+    height:200px;
+    box-shadow:4px 4px 10px rgba(0, 0, 0, 0.3);
+    background-size: contain;
+    filter: grayscale();
+    transition: height 2s;
+    justify-content: center;
+}
+.over {
+        position: absolute;
+        bottom: 0;
+        left:5%;
+    
+        
+    
+          background-color: #222222;
+          overflow: hidden;
+          width: 90%;
+          height: 60%;
+          transform: scale(0);
+          
+    
+    
+    
+
+  
+    
+}
+.photo:hover .over {
+    transform: scale(1);
+    }
+.photo:hover img {
+    height:40%;
+    filter: none;
+    cursor: pointer;
+    
+    }
+.text{
+    font-family: monospace;
+  color: white;
+  font-size: .6em;
+  position: absolute;
+
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text button {
+    width: 150px;
+    height:40px;
+    background-color:rgba(208, 37, 44, 0.9);
+    font-family:monospace;
+    font-size: .8em;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer; 
+    
+}
+.con {
+    background-image:url(photos/max.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: block;
+    text-align: center;
+}
+.textt{
+    position: relative;
+    top:30%;
+    font-family: monospace;
+    font-size: 1.5em;
+    color: black;
+    
+    }
+.textt p {
+    font-size: 2.5em;
+    margin: 0;
+    padding-bottom: 20px;
+    color: white;
+}
+.textt button{
+    width: 250px;
+    height:70px;
+    background-color:#222222;
+    font-family:monospace;
+    font-size: 1.5em;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer; 
+    }
+.textt button:hover{
+    background-color:rgba(208, 37, 44, 0.9); 
+}
+.featured {
+    background-color: #222222;
+    padding-top: 30px;
+    text-align: center;
+    
+    width: 100%;
+    
+}
+.featured h1 {
+    color: white;
+    font-family: monospace;
+    font-size: 2.5em;
+    margin: 10px 0px;
+    
+    
+}
+.featured section{
+    display: flex;
+    width: 100%;
+    padding-bottom: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+.gameconn{
+    position: relative;
+    width: 50%;
+    margin: 20px 1.5%;
+    height: 300px;
+}
+.gamecon{
+    position:absolute;
+    width: 100%;
+    
+    background-image: url(photos/red1.jpg);
+    opacity: .2;
+    background-position:center;
+    height: 300px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    
+    color: white;
+    
+    
+}
+
+
+.one{
+    background-image: url(photos/red3.jpg);
+}
+.two{
+    background-image: url(photos/red4.jpg);
+    background-position: right;
+    
+}
+.three{
+    background-image: url(photos/red2.jpg);
+    
+    background-position:bottom;
+    background-repeat: no-repeat;
+    
+    
+}
+.gamepics{
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(208, 37, 44, 0.7);
+    transform: scale(0);
+          
+    
+}
+.gamepic {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 1;
+}
+.gamepic img {
+    width: 50%;
+    position: relative;
+    top: 40%;
+    
+    
+    
+    transform: scale(1);
+    
+     
+    
+}
+.option{
+    font-family: monospace;
+  color: white;
+  font-size: 2em;
+  position: absolute;
+    
+
+    top:50%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+  
+    width: 100%;
+  
+    text-align: center;
+    transform:scale(0);
+}
+.option a {
+    margin-bottom: 20px;
+    justify-content: center;
+    
+   
+    
+}
+.gameconn:hover .gamepics{
+    transform: scale(1);
+    
+}
+.gameconn:hover .option{
+    transform: scale(1);
+    cursor: pointer;
+    
+    
+    
+}
+
+
+.gameconn:hover img{
+    
+    top:10%;
+    
+    
+    
+}
+footer {
+    background-color: #222222;
+    text-align: center;
+    margin: 0;
+}
+.social {
+    background-color: black;
+    padding-bottom: 10px;
+    
+}
+.social h2 {
+    color: white;
+    font-family: monospace;
+    font-size: 1.6em;
+    padding: 10px 0;
+    margin: 0;
+}
+.social img {
+    padding-top: 10 px;
+    margin: 0 2%;
+    
+    opacity: .5; 
+    
+}
+.social img:hover {
+    opacity: 1;
+}
+.last {
+    width: 100%;
+    
+}
+.last div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.last ul {
+    list-style: none;
+    display: list-item;
+    padding: 20px 5%;
+    text-align: justify;
+    
+}
+.last ul a {
+    color: white;
+    font-family: monospace;
+    font-size: .9em;
+    text-decoration: none;
+    opacity: .5;
+    
+}
+.last ul a:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    opacity: .5;
+    text-align: center;
+    font-family: monospace;
+    padding-bottom: 20px;
+    font-size: .8em;
+    color: white;
+    
+}
+
+    
+    
+    
+}
